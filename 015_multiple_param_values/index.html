@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Index Page</h1>
+    <hr>
+    <form action="act.do">
+        <table border="2px solid black" width="30%" align="center">
+            <tr>
+                <td>
+                    <label for="">Gender:</label>
+                </td>
+                <td>
+                    <label for="gm">Male</label>
+                    <input type="radio" name="gender" value="m" id="gm">
+                    <label for="gf">Female</label>
+                    <input type="radio" name="gender" value="f" id="gf">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="">food:</label>
+                </td>
+                <td>
+                    <label for="sam">samosa</label>
+                    <input type="checkbox" name="food" value="samo" id="sam">
+                    <label for="kacth">katori</label>
+                    <input type="checkbox" name="food" value="katcho" id="kacth">
+                    <label for="jebi">jalebi</label>
+                    <input type="checkbox" name="food" value="jebi" id="jebi">
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <label for="city">City:</label>
+                </td>
+                <td>
+                    <select name="city" id="city" multiple>
+                        <option>Select City</option>
+                        <option>jabalpur</option>
+                        <option>jagdalpur</option>
+                        <option>jaipur</option>
+                        <option>nagpur</option>
+                        <option>kanpur</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Save">
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
