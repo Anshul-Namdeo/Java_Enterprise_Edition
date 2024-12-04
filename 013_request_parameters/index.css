@@ -1,0 +1,10 @@
+body {
+    font-family: verdana;
+}
+
+table {
+    border: 1px solid #ccc;
+    width: 20%;
+    padding: 10px 0 10px 10px;
+    margin:20px auto;
+}
