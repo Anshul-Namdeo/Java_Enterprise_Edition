@@ -1,0 +1,21 @@
+create database authdb;
+
+use authdb;
+
+create table users
+(
+    user_id int auto_increment primary key,
+    full_name char(45) not null,
+    email char(255) not null unique,
+    password char(255) not null,
+    gender char(1),
+    city char(60),
+    address varchar(500)
+);
+
+alter table users add column dob date after password;
+alter table users add column country varchar(20);
+
+alter table users drop column country ;
+
+select * from users;
