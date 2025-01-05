@@ -1,0 +1,52 @@
+#header {
+    background-color: rgb(93, 217, 81);
+    height: 100px;
+    margin: auto 20px;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    border-bottom: 1px solid rgb(167, 110, 11);
+    box-shadow: 5px 5px 10px rgb(229, 148, 9);
+    position: relative;
+    position: sticky;
+    top:0;
+}
+
+#logo {
+    width:64px;
+    position: absolute;
+    left:20px;
+    top:15px;
+}
+
+#compnm {
+    position: absolute;
+    left:100px;
+    top:20px;
+    font-size: 24px;
+    font-weight: bold;
+    color:rgb(130, 123, 212);
+    text-decoration:underline;
+}
+
+#action {
+    float:right;
+    list-style: none;
+    margin-right: 20px;
+}
+
+#action li {
+    display: inline;
+}
+
+#action li a {
+    text-decoration: none;
+    background-color: rgba(198, 230, 201, 0.673);
+    padding: 5px 8px;
+    border-radius: 10px;
+    color: rgb(210, 89, 200);
+   /* border-top: 1px solid #000;
+    animation: btn 1s alternate infinite; */
+}
+
+
+
